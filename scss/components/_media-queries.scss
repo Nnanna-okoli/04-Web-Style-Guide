@@ -1,0 +1,105 @@
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media #{$brk-wide} {
+
+.container {
+  max-width: 1400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  flex-direction: row;
+}
+
+[class^=col] {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
+}
+
+[class^=col] + [class^=col] {
+  margin-left: 10px;
+}
+
+.col-1 {
+  flex-basis: $col-1;
+}
+
+.col-2 {
+  flex-basis: $col-2;
+}
+
+.col-3 {
+  flex-basis: $col-3;
+}
+
+.col-4 {
+  flex-basis: $col-4;
+}
+
+.col-5 {
+  flex-basis: $col-5;
+}
+
+.col-6 {
+  flex-basis: $col-6;
+}
+
+.col-7 {
+  flex-basis: $col-7;
+}
+
+.col-8 {
+  flex-basis: $col-8;
+}
+
+.col-9 {
+  flex-basis: $col-9;
+}
+
+.col-10 {
+  flex-basis: $col-10;
+}
+
+.col-11 {
+  flex-basis: $col-11;
+}
+
+.col-12 {
+  flex-basis: $col-12;
+}
+
+.nav {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  flex-basis: 100px;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.logo {
+  margin-left: initial;
+  margin-right: initial;
+}
+
+}

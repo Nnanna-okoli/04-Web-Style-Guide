@@ -1,0 +1,48 @@
+/* ======================================================= */
+
+/*        Variables                                       */
+
+/* ======================================================= */
+
+/*
+❑ Create at least 5 color variables.
+❑ Create at least 1 variable for the media query breakpoint.
+❑ Go through each of your scss partial files and replace the hard coded css values with your
+variables.
+*/
+
+// Base Typography Colours
+
+$Prinmary-color: #58e1c1;
+$Secondary-color: #777;
+$white: #fff;
+
+
+// Component Button Colours
+
+$btn-default-color: #51ddfc;
+$btn-error-color:   #e4757a;
+$btn-info-color:    #927bc1;
+$btn-success-color: #927bc1;
+$btn-warning-color: #fd7856;
+
+// Main Font
+
+$font-lato: Lato, sans-serif;
+
+
+//Media Query breakpoints
+$brk-wide:  '(min-width: 768px)';
+
+$col-1: 8.33%;
+$col-2: 16.67%;
+$col-3: 25.00%;
+$col-4: 33.33%;
+$col-5: 41.67%;
+$col-6: 50.00%;
+$col-7: 58.33%;
+$col-8: 66.67%;
+$col-9: 75.00%;
+$col-10: 83.33%;
+$col-11: 91.67%;
+$col-12: 100%;
