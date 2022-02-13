@@ -1,2 +1,2 @@
 # U4-Web-Style-Guide
-Treehouse unit 4 - Interactive photo gallery project
+Web Style Guide Project 13.02.22
